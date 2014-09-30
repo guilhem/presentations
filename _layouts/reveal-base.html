@@ -15,7 +15,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="{{ site.baseurl}}{{ site.reveal_path }}css/reveal.min.css">
-		<link rel="stylesheet" href="{{ site.baseurl}}{{ site.reveal_theme_path }}{{ site.reveal_theme }}" id="theme">
+		<link rel="stylesheet" href="{{ site.baseurl}}{{ site.reveal_theme_path }}{{ page.reveal_theme }}" id="theme">
+		<link rel="stylesheet" href="{{ site.baseurl}}/assets/css/reveal-post.css">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="{{ site.baseurl}}{{ site.reveal_path }}lib/css/zenburn.css">
@@ -56,7 +57,7 @@
 				center: true,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: '{{ site.reveal_transition }}', // default/cube/page/concave/zoom/linear/fade/none
+				transition: '{{ page.reveal_transition }}', // default/cube/page/concave/zoom/linear/fade/none
 
                 {% if site.reveal_options %}
 
