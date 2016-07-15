@@ -2,6 +2,9 @@
 layout: reveal
 title: Chef-Paris Infrastructure as open-source code
 ---
+
+<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-notes="^Note:">
+
 # Infrastructure as open source code
 
 --

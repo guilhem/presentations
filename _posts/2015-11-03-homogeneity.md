@@ -3,6 +3,7 @@ title: "Homogeneity, Main enemy for DevOps?"
 reveal_theme: serif.css
 reveal_transition: linear
 ---
+<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-notes="^Note:">
 
 # Homogeneity, Main enemy for DevOps?
 

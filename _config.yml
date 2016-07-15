@@ -31,6 +31,13 @@ reveal_dependencies:
 # Reveal.js subdirectory
 reveal_path: /reveal.js/
 
+destination: _site
+
 # Don't change anything below
-markdown: redcarpet
-markdown_ext: ignoreme
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+exclude: [vendor]

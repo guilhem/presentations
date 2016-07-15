@@ -4,6 +4,8 @@ reveal_theme: serif.css
 reveal_transition: linear
 ---
 
+<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-notes="^Note:">
+
 # Taylorism against Apocalypse
 
 
@@ -13,7 +15,7 @@ Openstack meetup 2015-06-30
 
 ## What's Apocalypse?
 
-End of civilisation, no more activity 
+End of civilisation, no more activity
 
 ---
 
